@@ -34,7 +34,59 @@ body {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
-    font-size: 18px;
-    
+    font-size: 18px; 
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-primario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-primario-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-primario-escrito-titulo {
+    font-family: Righteous, cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
 
 }
+
+.conteudo-primario-escrito-subtitulo {
+    
+}
+
+.conteudo-primario-escrito-botao {
+
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.conteudo-secundario-titulo {
+
+}
+
+.conteudo-secundario-paragrafo {
+
+}
+
+
+
+
